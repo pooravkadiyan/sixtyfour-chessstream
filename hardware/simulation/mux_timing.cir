@@ -1,0 +1,11 @@
+* 74HC4067 channel settle into 30pF through 70 ohm on-resistance.
+* Logic propagation (~30ns at 3.3V) is added as the PULSE delay.
+Vcc com_src 0 DC 3.3
+Ron com_src com 70
+Cload com 0 30p
+Vsel sel 0 PULSE(0 3.3 100n 5n 5n 5u 10u)
+* Switch closes when select crosses 1.6V
+Schan com_src com sel 0 MuxSW
+.model MuxSW SW(Ron=70 Roff=10Meg Vt=1.6)
+.tran 0 2u 0 1n
+.end

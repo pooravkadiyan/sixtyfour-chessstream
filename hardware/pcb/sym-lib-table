@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "chessstream")(type "KiCad")(uri "${KIPRJMOD}/symbols/chessstream.kicad_sym")(options "")(descr "ChessStream symbols"))
+)

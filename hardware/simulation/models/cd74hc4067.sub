@@ -1,0 +1,6 @@
+* Behavioral stand-in for one CD74HC4067 channel path.
+* Ron ~70 ohm, Coff open, select threshold 1.6V, enable active-low.
+.subckt CD74HC4067_CH com ch sel ebar vcc gnd
+Smain com ch sel ebar Mux
+.model Mux SW(Ron=70 Roff=5Meg Vt=1.6 Vh=0)
+.ends CD74HC4067_CH

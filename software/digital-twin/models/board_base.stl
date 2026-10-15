@@ -1,0 +1,86 @@
+solid board_base
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 500.0000 500.0000 0.0000
+      vertex 500.0000 0.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 500.0000 0.0000
+      vertex 500.0000 500.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 6.0000
+      vertex 500.0000 0.0000 6.0000
+      vertex 500.0000 500.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 6.0000
+      vertex 500.0000 500.0000 6.0000
+      vertex 0.0000 500.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 500.0000 0.0000 0.0000
+      vertex 500.0000 0.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 500.0000 0.0000 6.0000
+      vertex 0.0000 0.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 500.0000 0.0000 0.0000
+      vertex 500.0000 500.0000 0.0000
+      vertex 500.0000 500.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 500.0000 0.0000 0.0000
+      vertex 500.0000 500.0000 6.0000
+      vertex 500.0000 0.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 500.0000 500.0000 0.0000
+      vertex 0.0000 500.0000 0.0000
+      vertex 0.0000 500.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 500.0000 500.0000 0.0000
+      vertex 0.0000 500.0000 6.0000
+      vertex 500.0000 500.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 500.0000 0.0000
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 0.0000 6.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 500.0000 0.0000
+      vertex 0.0000 0.0000 6.0000
+      vertex 0.0000 500.0000 6.0000
+    endloop
+  endfacet
+endsolid board_base

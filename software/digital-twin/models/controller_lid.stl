@@ -1,0 +1,86 @@
+solid controller_lid
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+      vertex 90.0000 0.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 60.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 2.0000
+      vertex 90.0000 0.0000 2.0000
+      vertex 90.0000 60.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 2.0000
+      vertex 90.0000 60.0000 2.0000
+      vertex 0.0000 60.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 2.0000
+      vertex 0.0000 0.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+      vertex 90.0000 60.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 2.0000
+      vertex 90.0000 0.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 2.0000
+      vertex 90.0000 60.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 0.0000 2.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 0.0000 2.0000
+      vertex 0.0000 60.0000 2.0000
+    endloop
+  endfacet
+endsolid controller_lid

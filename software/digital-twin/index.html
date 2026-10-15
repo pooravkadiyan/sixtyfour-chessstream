@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChessStream digital twin</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+      "chess.js": "https://esm.sh/chess.js@1.0.0"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="view">
+    <div id="hud">
+      Drag a piece. The reed grid on the right is what the ESP32 actually sees: occupied or empty.
+      <div><strong id="turn">White to move</strong></div>
+    </div>
+  </div>
+  <aside>
+    <h1>ChessStream twin</h1>
+    <p class="sub">STL enclosure from the mechanical model. Events match firmware/src/main.cpp.</p>
+
+    <label for="url">Board or relay WebSocket</label>
+    <input id="url" type="text" value="ws://127.0.0.1:81" spellcheck="false" />
+    <div class="row">
+      <button id="connect" class="primary" type="button">Connect</button>
+      <button id="disconnect" type="button">Use simulator</button>
+    </div>
+    <div id="status" class="sim">Simulator — drag pieces on the board</div>
+
+    <label>Reed matrix (firmware view)</label>
+    <div id="reeds"></div>
+
+    <div class="row">
+      <button id="reset" type="button">New game</button>
+      <button id="state" type="button">Request state</button>
+    </div>
+
+    <label>Moves</label>
+    <div id="log">No moves yet.</div>
+    <label>PGN</label>
+    <div id="pgn"></div>
+  </aside>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

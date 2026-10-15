@@ -1,0 +1,7 @@
+* ChessStream reed switch, used by reed_switch.cir
+.subckt REED_CELL sense ctrl gnd vcc
+Rpull vcc sense 10k
+Cstray sense gnd 20p
+Sreed sense gnd ctrl gnd ReedSW
+.model ReedSW SW(Ron=0.8 Roff=500Meg Vt=2.5 Vh=0.1)
+.ends REED_CELL

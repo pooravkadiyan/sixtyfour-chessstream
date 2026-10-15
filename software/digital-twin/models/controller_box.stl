@@ -1,0 +1,170 @@
+solid controller_box
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+      vertex 90.0000 0.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 60.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 18.0000
+      vertex 90.0000 0.0000 18.0000
+      vertex 90.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 18.0000
+      vertex 90.0000 60.0000 18.0000
+      vertex 0.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 0.0000 0.0000
+      vertex 90.0000 0.0000 18.0000
+      vertex 0.0000 0.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 0.0000
+      vertex 90.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 0.0000 0.0000
+      vertex 90.0000 60.0000 18.0000
+      vertex 90.0000 0.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 90.0000 60.0000 0.0000
+      vertex 0.0000 60.0000 18.0000
+      vertex 90.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 0.0000 0.0000
+      vertex 0.0000 0.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 0.0000 60.0000 0.0000
+      vertex 0.0000 0.0000 18.0000
+      vertex 0.0000 60.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 18.0000
+      vertex 86.0000 56.0000 18.0000
+      vertex 86.0000 4.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 18.0000
+      vertex 4.0000 56.0000 18.0000
+      vertex 86.0000 56.0000 18.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 20.0000
+      vertex 86.0000 4.0000 20.0000
+      vertex 86.0000 56.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 20.0000
+      vertex 86.0000 56.0000 20.0000
+      vertex 4.0000 56.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 18.0000
+      vertex 86.0000 4.0000 18.0000
+      vertex 86.0000 4.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 4.0000 18.0000
+      vertex 86.0000 4.0000 20.0000
+      vertex 4.0000 4.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 86.0000 4.0000 18.0000
+      vertex 86.0000 56.0000 18.0000
+      vertex 86.0000 56.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 86.0000 4.0000 18.0000
+      vertex 86.0000 56.0000 20.0000
+      vertex 86.0000 4.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 86.0000 56.0000 18.0000
+      vertex 4.0000 56.0000 18.0000
+      vertex 4.0000 56.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 86.0000 56.0000 18.0000
+      vertex 4.0000 56.0000 20.0000
+      vertex 86.0000 56.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 56.0000 18.0000
+      vertex 4.0000 4.0000 18.0000
+      vertex 4.0000 4.0000 20.0000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.0000 56.0000 18.0000
+      vertex 4.0000 4.0000 20.0000
+      vertex 4.0000 56.0000 20.0000
+    endloop
+  endfacet
+endsolid controller_box

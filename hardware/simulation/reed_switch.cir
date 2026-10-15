@@ -1,0 +1,11 @@
+* ChessStream reed cell — open in LTspice (File > Open)
+* 10k pull-up to 3.3V, 20pF stray, reed to GND.
+* Vmagnet encodes four contact bounces, then a steady close.
+Vpull 3V3 0 DC 3.3
+Rpull 3V3 sense 10k
+Cstray sense 0 20p
+Sreed sense 0 ctrl 0 ReedSW
+Vmagnet ctrl 0 PWL(0 0 1m 0 1.01m 5 1.25m 0 1.4m 5 1.55m 0 1.75m 5 1.9m 0 2.1m 5 12m 5)
+.model ReedSW SW(Ron=0.8 Roff=500Meg Vt=2.5 Vh=0.1)
+.tran 0 12m 0 2u
+.end

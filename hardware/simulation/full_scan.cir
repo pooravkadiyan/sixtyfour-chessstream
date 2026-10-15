@@ -1,0 +1,11 @@
+* One full 16-channel scan of a single CD74HC4067, repeated for 4 muxes in parallel.
+* Firmware scans 64 squares every 10ms and waits 10us after each select change.
+* This deck shows one select dwell of 10us is far longer than the analog settle.
+Vcc 3V3 0 DC 3.3
+Rch 3V3 ch 10k
+Cch ch 0 20p
+S1 ch 0 sel 0 ReedSW
+Vsel sel 0 PULSE(0 3.3 0 10n 10n 10u 20u)
+.model ReedSW SW(Ron=0.8 Roff=500Meg Vt=1.6)
+.tran 0 40u 0 10n
+.end

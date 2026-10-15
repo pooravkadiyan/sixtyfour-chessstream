@@ -196,11 +196,19 @@ See [docs/assembly/ASSEMBLY.md](../assembly/ASSEMBLY.md) for step-by-step instru
 
 ## Design Files
 
-- `pcb/chessstream.kicad_pro` - KiCad project
-- `pcb/chessstream.kicad_sch` - Schematic
-- `pcb/chessstream.kicad_pcb` - PCB layout
-- `enclosure/enclosure.step` - 3D CAD model
-- `enclosure/laser_cut.dxf` - Laser cutting files
+Open `pcb/chessstream.kicad_pro` in KiCad 8. The root sheet links `controller.kicad_sch` (ESP32, USB-C, AMS1117) and `reed_matrix.kicad_sch` (64 reeds, four CD74HC4067). Global labels `3V3`, `GND`, `SIG1`–`SIG4`, `S0`–`S3`, and `LED` tie the sheets together. Muxes are on the 450 mm board; the 80×50 mm controller is `controller.kicad_pcb`.
+
+- `pcb/chessstream.kicad_pcb` — 450×450 mm matrix
+- `pcb/controller.kicad_pcb` — 80×50 mm controller
+- `gerber/matrix/` and `gerber/controller/` — Gerber and Excellon
+- `gerber/bom.csv`, `gerber/positions_matrix.csv`, `gerber/positions_controller.csv`
+- `enclosure/generate_enclosure.py` — parametric FreeCAD script (square pockets, reed holes, magnet cavities)
+- `enclosure/export/*.stl` — meshes used by the digital twin
+- `enclosure/export/laser_cut.dxf` — laser-cut frame
+- `enclosure/export/assembly.step` — major solids
+- `simulation/` — LTspice decks and `RESULTS.md`
+
+Regenerate everything with `python hardware/tools/generate_design.py`.
 
 ## References
 

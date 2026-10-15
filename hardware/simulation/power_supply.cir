@@ -1,0 +1,12 @@
+* USB 5V -> 0.3 ohm cable -> 10uF -> AMS1117 behavioral model -> 10uF -> pulsed load
+* Wi-Fi TX burst: 150mA to 300mA for 2ms starting at t=1ms
+Vusb usb 0 DC 5
+Rin usb vin 0.3
+Cin vin 0 10u
+* Dropout model: Vout tracks 3.3 when Vin is high enough, else Vin-1.1
+Breg vreg 0 V=if(V(vin)>4.2, 3.3, V(vin)-1.1)
+Rout vreg vout 0.2
+Cout vout 0 10u Rser=0.05
+Iload vout 0 PWL(0 0.15 1m 0.15 1.001m 0.30 3m 0.30 3.001m 0.15)
+.tran 0 6m 0 1u
+.end

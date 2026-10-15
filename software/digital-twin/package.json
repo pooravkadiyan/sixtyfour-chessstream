@@ -1,0 +1,13 @@
+{
+  "name": "chessstream-digital-twin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Browser digital twin of the ChessStream India board. Loads the STL enclosure and pieces and speaks the ESP32 WebSocket protocol.",
+  "scripts": {
+    "start": "python -m http.server 8765"
+  },
+  "dependencies": {
+    "chess.js": "^1.0.0",
+    "three": "^0.160.0"
+  }
+}

@@ -122,6 +122,32 @@ The ESP32 firmware:
 - Multi-board monitoring
 - Player/game metadata entry
 
+## Digital twin
+
+The browser twin loads the enclosure and piece STL files and speaks the same WebSocket events as the ESP32 firmware (`lift`, `place`, `move` with UCI).
+
+```bash
+cd software/digital-twin
+python -m http.server 8765
+```
+
+Open http://127.0.0.1:8765 and drag a piece. The 8×8 grid is the reed-matrix view (occupied or empty). Connect `ws://<board-ip>:81` to follow a real board, or `ws://127.0.0.1:8080/ws` to follow the Python relay.
+
+KiCad, FreeCAD, Gerber, and LTspice sources are under `hardware/`. See `hardware/README.md`.
+
+## Digital Twin
+
+The browser twin loads the enclosure and piece STL files and speaks the same WebSocket events as the ESP32 firmware (`lift`, `place`, `move` with UCI).
+
+```bash
+cd software/digital-twin
+python -m http.server 8765
+```
+
+Open http://127.0.0.1:8765 and drag a piece. The 8×8 grid is the reed-matrix view (occupied or empty). Connect `ws://<board-ip>:81` to follow a real board, or `ws://127.0.0.1:8080/ws` to follow the Python relay.
+
+KiCad, FreeCAD, Gerber, and LTspice sources are under `hardware/`. See `hardware/README.md`.
+
 ## Getting Started
 
 ### Prerequisites

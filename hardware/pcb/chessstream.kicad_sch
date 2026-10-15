@@ -1,0 +1,43 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0.6")
+  (uuid "238dbf11-7393-44db-b732-d8f5ba0df335")
+  (paper "A3")
+  (title_block
+    (title "ChessStream India")
+    (date "2026-10-15")
+    (rev "0.1")
+    (company "Monara Ventures")
+    (comment 1 "ChessStream India electronic chessboard")
+  )
+  (lib_symbols
+
+  )
+  (sheet
+    (at 25 25)
+    (size 90 110)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0))
+    (uuid "4e4a6ff8-5bb1-488f-9be2-a79db86621b2")
+    (property "Sheetname" "Controller" (at 25 24 0) (effects (font (size 1.5 1.5))))
+    (property "Sheetfile" "controller.kicad_sch" (at 25 136 0) (effects (font (size 1.27 1.27))))
+  )
+  (sheet
+    (at 140 25)
+    (size 120 110)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0))
+    (uuid "7fd8862e-2165-4723-9387-12562d361baf")
+    (property "Sheetname" "ReedMatrix" (at 140 24 0) (effects (font (size 1.5 1.5))))
+    (property "Sheetfile" "reed_matrix.kicad_sch" (at 140 136 0) (effects (font (size 1.27 1.27))))
+  )
+  (text "Global labels 3V3 GND SIG1-4 S0-S3 LED tie the controller to the matrix. Muxes sit on the 450mm board. The 80x50mm controller carries ESP32, USB-C and the LDO. Reed closes to GND when a magnet is present. 10k pulls each channel up to 3.3V." (at 25 160 0)
+    (effects (font (size 1.5 1.5)))
+    (uuid "e8c18df5-61bf-4d12-b4d0-69d0b04c6427"))
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)
